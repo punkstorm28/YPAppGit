@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ViewAnimator
+        android:id="@+id/switcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbarTop"
+        android:visibility="visible">
+
+
+        <ImageButton
+            android:id="@+id/magazineButtonSwipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button"
+            android:src="@drawable/magazine_back"
+             />
+
+        <ImageButton
+            android:id="@+id/refreshButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button"
+            android:src="@drawable/vector_drawable_ic_replay_black___px" />
+
+        <ImageButton
+            android:id="@+id/button_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/refreshButton"
+            android:contentDescription="Separations"
+            android:background="@drawable/button"
+            android:src="@drawable/undo_button" />
+
+    </RelativeLayout>
+</ViewAnimator>
+
+<com.daprlabs.aaron.swipedeck.layouts.SwipeFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipedeck="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipeLayout"
+    android:layout_marginTop="40dp"
+    android:background="@color/card_background"
+    android:orientation="vertical">
+
+
+
+    <com.daprlabs.aaron.swipedeck.SwipeDeck
+        android:id="@+id/swipe_deck"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="50dp"
+        swipedeck:card_spacing="15dp"
+        swipedeck:max_visible="3"
+        swipedeck:render_above="false" />
+
+</com.daprlabs.aaron.swipedeck.layouts.SwipeFrameLayout>
+    </RelativeLayout>

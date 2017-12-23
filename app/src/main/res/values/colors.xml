@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbar">#00d4d6da</color>
+    <color name="toolbarTop">#ccfda409</color>
+
+    <color name="page_indicator">#9447474d</color>
+    <color name="busy_indicator">#C0202020</color>
+    <color name="button_normal">#00000000</color>
+    <color name="button_pressed">#FF2572AC</color>
+    <color name="text_normal">#FFFFFF</color>
+    <color name="text_pressed">#FFFFFF</color>
+    <color name="text_border_normal">#000000</color>
+    <color name="text_overlay">#d5000000</color>
+
+    <color name="text_border_pressed">#2572AC</color>
+    <color name="text_border_focused">#000000</color>
+    <color name="seek_thumb">#c6ff0008</color>
+    <color name="seek_progress">#e7126448</color>
+    <color name="notification_backX">#f2659afc</color>
+
+    <color name="text_reflow_color">#000000</color>
+    <color name="text_reflow_bg_color">#ffffdc</color>
+
+    <color name="black_overlay">#669faf43</color>
+    <color name="duskYellow">#FFFF00</color>
+    <color name="lightGrey">#dc0b0c15</color>
+    <color name="notifications_back">#e7126448</color>
+    <color name="notifications_tabBack">#4cb996</color>
+    <color name="notifications_textBack">#000000</color>
+    <color name="card_background">#e4efe0</color>
+    <color name="list_background">#ffffff</color>
+    <color name="login_error">#d40000</color>
+    <color name="button_color">#f75bff52</color>
+
+
+</resources>

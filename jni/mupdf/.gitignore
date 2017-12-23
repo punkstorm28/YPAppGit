@@ -1,0 +1,55 @@
+# Generated files:
+build
+generated
+include/mupdf/pdf/name-table.h
+source/pdf/pdf-name-table.h
+tags
+cscope.*
+
+# Editor and file browser turds:
+*~
+.*.swp
+.DS_Store
+
+# Editor settings:
+.vimrc
+.gradle
+*.xcworkspace
+*.xcuserdatad
+
+# Test files:
+*.pdf
+*.xps
+*.epub
+*.html
+*.xhtml
+*.css
+*.svg
+
+# Temporary and build files:
+*.class
+*.jar
+*.o
+*.so
+DerivedData
+
+platform/win32/*.user
+platform/win32/*.ncb
+platform/win32/*.suo
+platform/win32/Debug
+platform/win32/DebugOpenssl
+platform/win32/Profile
+platform/win32/Release
+platform/win32/ReleaseOpenssl
+platform/win32/Memento
+platform/win32/x64
+
+platform/android/*/obj
+platform/android/*/bin
+platform/android/*/libs
+platform/android/*/gen
+platform/android/*/jni/andprof
+platform/android/*/local.properties
+platform/android/*/.classpath
+platform/android/*/.project
+platform/android/*/.settings

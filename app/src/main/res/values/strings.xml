@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Young Pioneer</string>
+    <string name="version">1.9 (git build)</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_backwards">Search backwards</string>
+    <string name="search_forwards">Search forwards</string>
+    <string name="search_document">Search document</string>
+    <string name="outline_title">Table of Contents</string>
+    <string name="enter_password">Enter password</string>
+    <string name="text_not_found">Text not found</string>
+    <string name="searching_">Searching&#8230;</string>
+    <string name="no_further_occurrences_found">No further occurrences found</string>
+    <string name="search">Search</string>
+    <string name="delete">Delete</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="entering_reflow_mode">Entering reflow mode</string>
+    <string name="leaving_reflow_mode">Leaving reflow mode</string>
+    <string name="print_failed">Print failed</string>
+    <string name="document_has_changes_save_them_">Document has changes. Save them?</string>
+    <string name="cannot_open_document">Cannot open document</string>
+    <string name="cannot_open_document_Reason">Cannot open document: %1$s</string>
+    <string name="cannot_open_file_Path">Cannot open file: %1$s</string>
+    <string name="cannot_open_buffer">Cannot open buffer</string>
+    <string name="fill_out_text_field">Fill out text field</string>
+    <string name="okay">Okay</string>
+    <string name="choose_value">Choose value</string>
+    <string name="not_supported">Not supported</string>
+    <string name="toggle_reflow_mode">Toggle reflow mode</string>
+
+    <string name="google_cloud_messaging_package">com.atriflex.mupdfdemo</string>
+
+    <string name="title_activity_rating">Feedback</string>
+    <string name="rate_box_initial">Comments...</string>
+
+
+    <!-- Runtime Strings Section -->
+    <string name="infoMesage">Young Pioneer viewer\nVersion 1.0\n\n RNS Technosolutions Pvt. Ltd.</string>
+    <string name="ReviewURL">http://ncjps.in/yp/Messages/feedback.php</string>
+    <string name="DownloadBaseURL">http://ypgen.youngpioneer.in/yp/</string>
+    <string name="WebviewSiteURL">http://ypgen.youngpioneer.in</string>
+    <string name="title_activity_yplogin_manager">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">UserID</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This UserID address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+
+
+</resources>
